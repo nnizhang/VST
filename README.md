@@ -12,9 +12,23 @@ created by Ni Zhang, email: nnizhang.1995@gmail.com
 
 ## RGB VST for RGB salient object detection
 ### Data Preparation
-We use the training set of [DUTS](http://saliencydetection.net/duts/) to train our VST. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate contour maps of DUTS trainset for training. You can directly download the generated contour maps from [[baidu pan](https://pan.baidu.com/s/17OnUi09YuOOq23xNrdYCLQ) fetch code: ow76 | [Google drive]()].
+We use the training set of [DUTS](http://saliencydetection.net/duts/) to train our VST. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate contour maps of DUTS trainset for training. You can directly download the generated contour maps (DUTS-TR-Contour) from [[baidu pan](https://pan.baidu.com/s/17OnUi09YuOOq23xNrdYCLQ) fetch code: ow76 | [Google drive]()] and put it into Data directory.
+
+Your `Data` directory should look like this:
+
+````
+-- Data
+   |-- DUTS
+   |   |-- DUTS-TR
+   |   |-- | DUTS-TR-Image
+   |   |-- | DUTS-TR-Mask
+   |   |-- | DUTS-TR-Contour
+   |   |-- DUTS-TE
+   |   |-- | DUTS-TE-Image
+   |   |-- | DUTS-TE-Mask
+````
 
 
 
-## RGB-D VST for RGB-D saliency object detection
+## RGB-D VST for RGB-D salient object detection
 Coming soon...
