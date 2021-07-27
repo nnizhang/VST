@@ -4,4 +4,4 @@ source code for our ICCV 2021 paper “Visual Saliency Transformer” by Nian Li
 
 created by Ni Zhang, email: nnizhang.1995@gmail.com
 
-![avatar](https://github.com/nnizhang/SMAC/blob/main/Network.png)
+![avatar](https://github.com/nnizhang/VST/blob/main/Network.png)
