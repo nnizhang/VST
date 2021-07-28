@@ -38,7 +38,7 @@ We use the testing set of [DUTS](http://saliencydetection.net/duts/), [ECSSD](ht
 ### Testing on Our Pretrained RGB VST Model
 1. Download our pretrained `RGB_VST.pth` and then put it in `Models/` folder.
 
-Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1SvUrYHCqrAtImB0Fe4NeOA) fetch code: 7c0w | [Google drive](https://drive.google.com/file/d/1pw420i07T5R8SeBr0tUBnEB6ASnMvoPL/view?usp=sharing)].
+Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1CDkCjq9fRvOHLou9S9oGiA) fetch code: 92t0 | [Google drive](https://drive.google.com/file/d/1T4zDvBobQdT7L7i0HijOZSMfTS5hK-Ec/view?usp=sharing)].
 
 Coming soon...
 
