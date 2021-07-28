@@ -37,17 +37,19 @@ Your `RGB_VST/Data` folder should look like this:
 ````
 
 ### Training, Testing, and Evaluation
-1. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)].
-2. 
-
+1. `cd RGB_VST`
+2. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)] and put it into `pretrained_model` folder.
+3. Run `python train_test_eval.py --Training True --Testing True --Evaluation True` for training, testing, and evaluation. The predictions will be in `preds/` folder and the evaluation results will be in `result.txt` file.
 
 ### Testing on Our Pretrained RGB VST Model
-1. Download our pretrained `RGB_VST.pth` and then put it in `RGB_VST/checkpoint/` folder.
+1. `cd RGB_VST`
+2. Download our pretrained `RGB_VST.pth` and then put it in `checkpoint/` folder.
+3. Run `python train_test_eval.py --Training False --Testing True --Evaluation True` for testing and evaluation. The predictions will be in `preds/` folder and the evaluation results will be in `result.txt` file.
 
 Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1CDkCjq9fRvOHLou9S9oGiA) fetch code: 92t0 | [Google drive](https://drive.google.com/file/d/1T4zDvBobQdT7L7i0HijOZSMfTS5hK-Ec/view?usp=sharing)].
 
+### SOTA Saliency Maps for Comparison
 Coming soon...
-
 
 
 ## RGB-D VST for RGB-D Salient Object Detection
