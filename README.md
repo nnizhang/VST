@@ -13,7 +13,10 @@ created by Ni Zhang, email: nnizhang.1995@gmail.com
 ## RGB VST for RGB Salient Object Detection
 ### Data Preparation
 #### Train Set
-We use the training set of [DUTS](http://saliencydetection.net/duts/) to train our VST for RGB SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate contour maps of DUTS trainset for training. You can directly download the generated contour maps (DUTS-TR-Contour) from [[baidu pan](https://pan.baidu.com/s/17OnUi09YuOOq23xNrdYCLQ) fetch code: ow76 | [Google drive](https://drive.google.com/file/d/1NizY8WZSz-5i5KV7bATODi76fovrLuVf/view?usp=sharing)] and put it into `Data` folder.
+We use the training set of [DUTS](http://saliencydetection.net/duts/) to train our VST for RGB SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate contour maps of DUTS trainset for training. You can directly download the generated contour maps (DUTS-TR-Contour) from [[baidu pan](https://pan.baidu.com/s/17OnUi09YuOOq23xNrdYCLQ) fetch code: ow76 | [Google drive](https://drive.google.com/file/d/1NizY8WZSz-5i5KV7bATODi76fovrLuVf/view?usp=sharing)] and put it into `RGB_VST/Data` folder.
+
+#### Test Set
+We use the testing set of [DUTS](http://saliencydetection.net/duts/), [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html), [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html), [PASCAL-S](http://cbi.gatech.edu/salobj/), [DUT-O](http://saliencydetection.net/dut-omron/), and [SOD](http://elderlab.yorku.ca/SOD.) to test our VST. After Downloading, put them into `RGB_VST/Data` folder.
 
 Your `Data` folder should look like this:
 
@@ -27,16 +30,19 @@ Your `Data` folder should look like this:
    |   |-- DUTS-TE
    |   |-- | DUTS-TE-Image
    |   |-- | DUTS-TE-Mask
+   |-- ECSSD
+   |   |--images
+   |   |--GT
+   ...
 ````
-#### Test Set
-We use the testing set of [DUTS](http://saliencydetection.net/duts/), [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html), [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html), [PASCAL-S](http://cbi.gatech.edu/salobj/), [DUT-O](http://saliencydetection.net/dut-omron/), and [SOD](http://elderlab.yorku.ca/SOD.) to test our VST.
 
 ### Training, Testing, and Evaluation
 1. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)].
+2. 
 
 
 ### Testing on Our Pretrained RGB VST Model
-1. Download our pretrained `RGB_VST.pth` and then put it in `Models/` folder.
+1. Download our pretrained `RGB_VST.pth` and then put it in `RGB_VST/checkpoint/` folder.
 
 Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1CDkCjq9fRvOHLou9S9oGiA) fetch code: 92t0 | [Google drive](https://drive.google.com/file/d/1T4zDvBobQdT7L7i0HijOZSMfTS5hK-Ec/view?usp=sharing)].
 
@@ -54,7 +60,8 @@ We use 1,485 images from NJUD, 700 images from NLPR, and 800 images from DUTLF-D
 We use the testing set of NJUD, NLPR, and DUTLF-Depth and [STERE](http://dpfan.net/d3netbenchmark/), [LFSD](http://dpfan.net/d3netbenchmark/), [RGBD135](http://dpfan.net/d3netbenchmark/), [SSD](http://dpfan.net/d3netbenchmark/), [SIP](http://dpfan.net/d3netbenchmark/), and [ReDWeb-S](https://github.com/nnizhang/SMAC) to test our VST. 
 
 ### Training, Testing, and Evaluation
-1. Download the pretrained T2T-ViT_t-14 model [[baidu pan]() fetch code:  | [Google drive]()].
+1. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)].
+
 
 ### Testing on Our Pretrained RGB-D VST Model
 
