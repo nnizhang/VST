@@ -18,7 +18,7 @@ We use the training set of [DUTS](http://saliencydetection.net/duts/) to train o
 #### Test Set
 We use the testing set of [DUTS](http://saliencydetection.net/duts/), [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html), [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html), [PASCAL-S](http://cbi.gatech.edu/salobj/), [DUT-O](http://saliencydetection.net/dut-omron/), and [SOD](http://elderlab.yorku.ca/SOD.) to test our VST. After Downloading, put them into `RGB_VST/Data` folder.
 
-Your `Data` folder should look like this:
+Your `RGB_VST/Data` folder should look like this:
 
 ````
 -- Data
@@ -53,11 +53,31 @@ Coming soon...
 ## RGB-D VST for RGB-D Salient Object Detection
 ### Data Preparation
 #### Train Set
-We use 1,485 images from NJUD, 700 images from NLPR, and 800 images from DUTLF-Depth to train our VST for RGB-D SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate corresponding contour maps for training. You can directly download the whole training set from here [[baidu pan]() fetch code:  | [Google drive]()] and put it into `Data` folder.
-
+We use 1,485 images from NJUD, 700 images from NLPR, and 800 images from DUTLF-Depth to train our VST for RGB-D SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate corresponding contour maps for training. You can directly download the whole training set from here [[baidu pan](https://pan.baidu.com/s/13mvL8pl6AacDdPd4jK44fg) fetch code: 7vsw | [Google drive](https://drive.google.com/file/d/1vK_PLtB4o-LMrVtQlnVysmQpB8MpSlRA/view?usp=sharing)] and put it into `RGBD_VST/Data` folder.
 
 #### Test Set
 We use the testing set of NJUD, NLPR, and DUTLF-Depth and [STERE](http://dpfan.net/d3netbenchmark/), [LFSD](http://dpfan.net/d3netbenchmark/), [RGBD135](http://dpfan.net/d3netbenchmark/), [SSD](http://dpfan.net/d3netbenchmark/), [SIP](http://dpfan.net/d3netbenchmark/), and [ReDWeb-S](https://github.com/nnizhang/SMAC) to test our VST. 
+
+Your `RGBD_VST/Data` folder should look like this:
+
+````
+-- Data
+   |-- NJUD
+   |   |-- trainset
+   |   |-- | RGB
+   |   |-- | depth
+   |   |-- | GT
+   |   |-- | contour
+   |   |-- testset
+   |   |-- | RGB
+   |   |-- | depth
+   |   |-- | GT
+   |-- STERE
+   |   |-- RGB
+   |   |-- depth
+   |   |-- GT
+   ...
+````
 
 ### Training, Testing, and Evaluation
 1. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)].
