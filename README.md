@@ -59,3 +59,20 @@ We use the testing set of NJUD, NLPR, and DUTLF-Depth and [STERE](http://dpfan.n
 Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1yPo9C-WrBXiN8WXNEOP4Hg) fetch code: jovk | [Google drive](https://drive.google.com/file/d/1ccpQv6dnZbC-hx9pZjNTTI-_5qm8QLm9/view?usp=sharing)].
 
 Coming soon...
+
+## Acknowledgement
+We thank the authors of [Egnet](https://github.com/JXingZhao/EGNet) for providing codes of generating contour maps. We also thank [Zhao Zhang](https://github.com/zzhanghub/eval-co-sod) for providing the efficient evaluation tool.
+
+## Citation
+If you think our work is helpful, please cite 
+```
+@inproceedings{liu2021VST, 
+  title={Visual Saliency Transformer}, 
+  author={Liu, Nian and Zhang, Ni and Han, Junwei and Shao, Ling},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2021}
+}
+```
+
+
+
