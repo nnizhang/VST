@@ -27,8 +27,23 @@ Your `Data` directory should look like this:
    |   |-- | DUTS-TE-Image
    |   |-- | DUTS-TE-Mask
 ````
+
+### Training, Testing, and Evaluation
+
+### Testing on Our Pretrained RGB VST Model
+1. Download our pretrained `RGB_VST.pth` and then put it in `Models/` directory.
+
+Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1SvUrYHCqrAtImB0Fe4NeOA) fetch code: 7c0w | [Google drive](https://drive.google.com/file/d/1pw420i07T5R8SeBr0tUBnEB6ASnMvoPL/view?usp=sharing)].
+
 Coming soon...
 
-
 ## RGB-D VST for RGB-D salient object detection
+### Data Preparation
+
+### Training, Testing, and Evaluation
+
+### Testing on Our Pretrained RGB-D VST Model
+
+Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1yPo9C-WrBXiN8WXNEOP4Hg) fetch code: jovk | [Google drive](https://drive.google.com/file/d/1ccpQv6dnZbC-hx9pZjNTTI-_5qm8QLm9/view?usp=sharing)].
+
 Coming soon...
