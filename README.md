@@ -47,7 +47,7 @@ Coming soon...
 ## RGB-D VST for RGB-D Salient Object Detection
 ### Data Preparation
 #### Train Set
-We use 1,485 images from NJUD, 700 images from NLPR, and 800 images from DUTLF-Depth to train our VST for RGB-D SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate corresponding contour maps for training. You can directly download the generated contour maps from [[baidu pan]() fetch code:  | [Google drive]()] and put them into `Data` folder.
+We use 1,485 images from NJUD, 700 images from NLPR, and 800 images from DUTLF-Depth to train our VST for RGB-D SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate corresponding contour maps for training. You can directly download the whole training set from here [[baidu pan]() fetch code:  | [Google drive]()] and put it into `Data` folder.
 
 
 #### Test Set
