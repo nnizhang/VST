@@ -49,7 +49,7 @@ Your `RGB_VST/Data` folder should look like this:
 Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1CDkCjq9fRvOHLou9S9oGiA) fetch code: 92t0 | [Google drive](https://drive.google.com/file/d/1T4zDvBobQdT7L7i0HijOZSMfTS5hK-Ec/view?usp=sharing)].
 
 ### SOTA Saliency Maps for Comparison
-Coming soon...
+The saliency maps of the state-of-the-art methods in our paper can be download from [[baidu pan](https://pan.baidu.com/s/1wc0LzsHVG7OA-_mWE3Tf7g) fetch code: de4k | [Google drive](https://drive.google.com/file/d/1ZhU1OpTjW8BRgnlm1XR4sUgFMNqW7C1-/view?usp=sharing)].
 
 
 ## RGB-D VST for RGB-D Salient Object Detection
