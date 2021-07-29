@@ -38,7 +38,7 @@ Your `RGB_VST/Data` folder should look like this:
 
 ### Training, Testing, and Evaluation
 1. `cd RGB_VST`
-2. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)] and put it into `pretrained_model` folder.
+2. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)] and put it into `pretrained_model/` folder.
 3. Run `python train_test_eval.py --Training True --Testing True --Evaluation True` for training, testing, and evaluation. The predictions will be in `preds/` folder and the evaluation results will be in `result.txt` file.
 
 ### Testing on Our Pretrained RGB VST Model
@@ -94,7 +94,7 @@ Your `RGBD_VST/Data` folder should look like this:
 
 ### Training, Testing, and Evaluation
 1. `cd RGBD_VST`
-2. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)] and put it into `pretrained_model` folder.
+2. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)] and put it into `pretrained_model/` folder.
 3. Run `python train_test_eval.py --Training True --Testing True --Evaluation True` for training, testing, and evaluation. The predictions will be in `preds/` folder and the evaluation results will be in `result.txt` file.
 
 ### Testing on Our Pretrained RGB-D VST Model
@@ -105,7 +105,7 @@ Your `RGBD_VST/Data` folder should look like this:
 Our saliency maps can be downloaded from [[baidu pan](https://pan.baidu.com/s/1yPo9C-WrBXiN8WXNEOP4Hg) fetch code: jovk | [Google drive](https://drive.google.com/file/d/1ccpQv6dnZbC-hx9pZjNTTI-_5qm8QLm9/view?usp=sharing)].
 
 ### SOTA Saliency Maps for Comparison
-Coming soon...
+The saliency maps of the state-of-the-art methods in our paper can be downloaded from [[baidu pan](https://pan.baidu.com/s/16inYzbndidFEcokpWHi3EQ) fetch code: i1we | [Google drive](https://drive.google.com/file/d/18jh6KVl5WgxWSebFAo21aAJrvkFF6L_j/view?usp=sharing)].
 
 ## Acknowledgement
 We thank the authors of [Egnet](https://github.com/JXingZhao/EGNet) for providing codes of generating contour maps. We also thank [Zhao Zhang](https://github.com/zzhanghub/eval-co-sod) for providing the efficient evaluation tool.
