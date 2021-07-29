@@ -13,7 +13,7 @@ created by Ni Zhang, email: nnizhang.1995@gmail.com
 ## RGB VST for RGB Salient Object Detection
 ### Data Preparation
 #### Training Set
-We use the training set of [DUTS](http://saliencydetection.net/duts/) to train our VST for RGB SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate contour maps of DUTS trainset for training. You can directly download the generated contour maps (DUTS-TR-Contour) from [[baidu pan](https://pan.baidu.com/s/17OnUi09YuOOq23xNrdYCLQ) fetch code: ow76 | [Google drive](https://drive.google.com/file/d/1NizY8WZSz-5i5KV7bATODi76fovrLuVf/view?usp=sharing)] and put it into `RGB_VST/Data` folder.
+We use the training set of [DUTS](http://saliencydetection.net/duts/) to train our VST for RGB SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate contour maps of DUTS trainset for training. You can directly download the generated contour maps `DUTS-TR-Contour` from [[baidu pan](https://pan.baidu.com/s/17OnUi09YuOOq23xNrdYCLQ) fetch code: ow76 | [Google drive](https://drive.google.com/file/d/1NizY8WZSz-5i5KV7bATODi76fovrLuVf/view?usp=sharing)] and put it into `RGB_VST/Data` folder.
 
 #### Testing Set
 We use the testing set of [DUTS](http://saliencydetection.net/duts/), [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html), [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html), [PASCAL-S](http://cbi.gatech.edu/salobj/), [DUT-O](http://saliencydetection.net/dut-omron/), and [SOD](http://elderlab.yorku.ca/SOD.) to test our VST. After Downloading, put them into `RGB_VST/Data` folder.
@@ -46,10 +46,10 @@ Your `RGB_VST/Data` folder should look like this:
 2. Download our pretrained `RGB_VST.pth`[[baidu pan](https://pan.baidu.com/s/1oVeMDmffc8M1RgRUbZEdpQ) fetch code: pe54 | [Google drive](https://drive.google.com/file/d/1tZ3tQkQ7jlDDfF-_ZROnEZg44MaNQFMc/view?usp=sharing)] and then put it in `checkpoint/` folder.
 3. Run `python train_test_eval.py --Testing True --Evaluation True` for testing and evaluation. The predictions will be in `preds/` folder and the evaluation results will be in `result.txt` file.
 
-Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1CDkCjq9fRvOHLou9S9oGiA) fetch code: 92t0 | [Google drive](https://drive.google.com/file/d/1T4zDvBobQdT7L7i0HijOZSMfTS5hK-Ec/view?usp=sharing)].
+Our saliency maps can be downloaded from [[baidu pan](https://pan.baidu.com/s/1CDkCjq9fRvOHLou9S9oGiA) fetch code: 92t0 | [Google drive](https://drive.google.com/file/d/1T4zDvBobQdT7L7i0HijOZSMfTS5hK-Ec/view?usp=sharing)].
 
 ### SOTA Saliency Maps for Comparison
-The saliency maps of the state-of-the-art methods in our paper can be download from [[baidu pan](https://pan.baidu.com/s/1wc0LzsHVG7OA-_mWE3Tf7g) fetch code: de4k | [Google drive](https://drive.google.com/file/d/1ZhU1OpTjW8BRgnlm1XR4sUgFMNqW7C1-/view?usp=sharing)].
+The saliency maps of the state-of-the-art methods in our paper can be downloaded from [[baidu pan](https://pan.baidu.com/s/1wc0LzsHVG7OA-_mWE3Tf7g) fetch code: de4k | [Google drive](https://drive.google.com/file/d/1ZhU1OpTjW8BRgnlm1XR4sUgFMNqW7C1-/view?usp=sharing)].
 
 
 ## RGB-D VST for RGB-D Salient Object Detection
@@ -102,7 +102,7 @@ Your `RGBD_VST/Data` folder should look like this:
 2. Download our pretrained `RGBD_VST.pth`[[baidu pan](https://pan.baidu.com/s/1llkBDAlwcY9Wg8LeRBYKNg) fetch code: zt0v | [Google drive](https://drive.google.com/file/d/1752akN1ebQZ6g9R_1H14yIa40gThdXI4/view?usp=sharing)] and then put it in `checkpoint/` folder.
 3. Run `python train_test_eval.py --Testing True --Evaluation True` for testing and evaluation. The predictions will be in `preds/` folder and the evaluation results will be in `result.txt` file.
 
-Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1yPo9C-WrBXiN8WXNEOP4Hg) fetch code: jovk | [Google drive](https://drive.google.com/file/d/1ccpQv6dnZbC-hx9pZjNTTI-_5qm8QLm9/view?usp=sharing)].
+Our saliency maps can be downloaded from [[baidu pan](https://pan.baidu.com/s/1yPo9C-WrBXiN8WXNEOP4Hg) fetch code: jovk | [Google drive](https://drive.google.com/file/d/1ccpQv6dnZbC-hx9pZjNTTI-_5qm8QLm9/view?usp=sharing)].
 
 ### SOTA Saliency Maps for Comparison
 Coming soon...
