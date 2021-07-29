@@ -93,15 +93,16 @@ Your `RGBD_VST/Data` folder should look like this:
 ````
 
 ### Training, Testing, and Evaluation
-1. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)].
-
-Coming soon...
+1. `cd RGBD_VST`
+2. Download the pretrained T2T-ViT_t-14 model [[baidu pan](https://pan.baidu.com/s/1adESOUSpErZEceyLIoNOxQ) fetch code: 2u34 | [Google drive](https://drive.google.com/file/d/1R63FUPy0xSybULqpQK6_CTn3QgNog32h/view?usp=sharing)] and put it into `pretrained_model` folder.
+3. Run `python train_test_eval.py --Training True --Testing True --Evaluation True` for training, testing, and evaluation. The predictions will be in `preds/` folder and the evaluation results will be in `result.txt` file.
 
 ### Testing on Our Pretrained RGB-D VST Model
+1. `cd RGBD_VST`
+2. Download our pretrained `RGBD_VST.pth`[[baidu pan](https://pan.baidu.com/s/1llkBDAlwcY9Wg8LeRBYKNg) fetch code: zt0v | [Google drive](https://drive.google.com/file/d/1752akN1ebQZ6g9R_1H14yIa40gThdXI4/view?usp=sharing)] and then put it in `checkpoint/` folder.
+3. Run `python train_test_eval.py --Testing True --Evaluation True` for testing and evaluation. The predictions will be in `preds/` folder and the evaluation results will be in `result.txt` file.
 
 Our saliency maps can be download from [[baidu pan](https://pan.baidu.com/s/1yPo9C-WrBXiN8WXNEOP4Hg) fetch code: jovk | [Google drive](https://drive.google.com/file/d/1ccpQv6dnZbC-hx9pZjNTTI-_5qm8QLm9/view?usp=sharing)].
-
-Coming soon...
 
 ### SOTA Saliency Maps for Comparison
 Coming soon...
