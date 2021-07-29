@@ -58,7 +58,18 @@ Coming soon...
 We use 1,485 images from NJUD, 700 images from NLPR, and 800 images from DUTLF-Depth to train our VST for RGB-D SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate corresponding contour maps for training. You can directly download the whole training set from here [[baidu pan](https://pan.baidu.com/s/13mvL8pl6AacDdPd4jK44fg) fetch code: 7vsw | [Google drive](https://drive.google.com/file/d/1vK_PLtB4o-LMrVtQlnVysmQpB8MpSlRA/view?usp=sharing)] and put it into `RGBD_VST/Data` folder.
 
 #### Test Set
-We use the testing set of NJUD [[baidu pan](https://pan.baidu.com/s/1ywIJV_C0lG1KZNFow87bQQ) fetch code: 7mrn | [Google drive]()], NLPR [[baidu pan](https://pan.baidu.com/s/1G3ec34XV7oQboY8R9FPVDw) fetch code: tqqm | [Google drive]()], and DUTLF-Depth [[baidu pan](https://pan.baidu.com/s/1BZepaCfo2BsuvBczJKhN4Q) fetch code: 9jac | [Google drive]()] and STERE [[baidu pan](https://pan.baidu.com/s/16ros8tHMxy9YwfqBZJf1zQ) fetch code: 93hl | [Google drive]()], LFSD [[baidu pan](https://pan.baidu.com/s/1sSjFX45DIcNyExsA_lpybQ) fetch code: l2g4 | [Google drive]()], RGBD135 [[baidu pan](https://pan.baidu.com/s/1NQiTSYIs23Cl4TCf7Edp0A) fetch code: apzb | [Google drive]()], SSD [[baidu pan](https://pan.baidu.com/s/1Ihx001o1MUYaUtbBQH4TnQ) fetch code: j3v0 | [Google drive]()], SIP [[baidu pan](https://pan.baidu.com/s/1qvpfXrPYT94M6mD0pv3-SQ) fetch code: q0j5 | [Google drive]()], and [ReDWeb-S](https://github.com/nnizhang/SMAC) to test our VST. 
+
+NJUD [[baidu pan](https://pan.baidu.com/s/1ywIJV_C0lG1KZNFow87bQQ) fetch code: 7mrn | [Google drive](https://drive.google.com/file/d/19rdcNsuDE6bRD58bruqCXPDhoopTMME4/view?usp=sharing)]  
+NLPR [[baidu pan](https://pan.baidu.com/s/1G3ec34XV7oQboY8R9FPVDw) fetch code: tqqm | [Google drive](https://drive.google.com/file/d/1NlJqeauFt6NlzNSHL9iQofzm8XWLmeg9/view?usp=sharing)]  
+DUTLF-Depth [[baidu pan](https://pan.baidu.com/s/1BZepaCfo2BsuvBczJKhN4Q) fetch code: 9jac | [Google drive](https://drive.google.com/file/d/1FcS2cBrIj-tBmEgqQzqp-arKIA6UjsLd/view?usp=sharing)]  
+STERE [[baidu pan](https://pan.baidu.com/s/16ros8tHMxy9YwfqBZJf1zQ) fetch code: 93hl | [Google drive](https://drive.google.com/file/d/1cVw3tM3xRBxrvO3TZ-oX5tmnPPMIrNbJ/view?usp=sharing)]  
+LFSD [[baidu pan](https://pan.baidu.com/s/1sSjFX45DIcNyExsA_lpybQ) fetch code: l2g4 | [Google drive](https://drive.google.com/file/d/1KFZ53EiIuCxMaf6nlFwhfOeBqOJ7BldF/view?usp=sharing)]  
+RGBD135 [[baidu pan](https://pan.baidu.com/s/1NQiTSYIs23Cl4TCf7Edp0A) fetch code: apzb | [Google drive](https://drive.google.com/file/d/1kYClZ_17EdFviJ6SiW0_ghqudUCr4r2F/view?usp=sharing)]  
+SSD [[baidu pan](https://pan.baidu.com/s/1Ihx001o1MUYaUtbBQH4TnQ) fetch code: j3v0 | [Google drive](https://drive.google.com/file/d/1rD0QKEHdUSE-Cpijgxv4BlPUMRQ6Q69l/view?usp=sharing)]  
+SIP [[baidu pan](https://pan.baidu.com/s/1qvpfXrPYT94M6mD0pv3-SQ) fetch code: q0j5 | [Google drive](https://drive.google.com/file/d/1Ruv0oLVP8QjrN3keOtdCjSiX4mh7bBVN/view?usp=sharing)]  
+[ReDWeb-S](https://github.com/nnizhang/SMAC)
+
+After Downloading, put them into `RGBD_VST/Data` folder.
 
 Your `RGBD_VST/Data` folder should look like this:
 
