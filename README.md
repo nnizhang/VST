@@ -12,10 +12,10 @@ created by Ni Zhang, email: nnizhang.1995@gmail.com
 
 ## RGB VST for RGB Salient Object Detection
 ### Data Preparation
-#### Train Set
+#### Training Set
 We use the training set of [DUTS](http://saliencydetection.net/duts/) to train our VST for RGB SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate contour maps of DUTS trainset for training. You can directly download the generated contour maps (DUTS-TR-Contour) from [[baidu pan](https://pan.baidu.com/s/17OnUi09YuOOq23xNrdYCLQ) fetch code: ow76 | [Google drive](https://drive.google.com/file/d/1NizY8WZSz-5i5KV7bATODi76fovrLuVf/view?usp=sharing)] and put it into `RGB_VST/Data` folder.
 
-#### Test Set
+#### Testing Set
 We use the testing set of [DUTS](http://saliencydetection.net/duts/), [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html), [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency.html), [PASCAL-S](http://cbi.gatech.edu/salobj/), [DUT-O](http://saliencydetection.net/dut-omron/), and [SOD](http://elderlab.yorku.ca/SOD.) to test our VST. After Downloading, put them into `RGB_VST/Data` folder.
 
 Your `RGB_VST/Data` folder should look like this:
@@ -54,10 +54,10 @@ Coming soon...
 
 ## RGB-D VST for RGB-D Salient Object Detection
 ### Data Preparation
-#### Train Set
+#### Training Set
 We use 1,485 images from NJUD, 700 images from NLPR, and 800 images from DUTLF-Depth to train our VST for RGB-D SOD. Besides, we follow [Egnet](https://github.com/JXingZhao/EGNet) to generate corresponding contour maps for training. You can directly download the whole training set from here [[baidu pan](https://pan.baidu.com/s/13mvL8pl6AacDdPd4jK44fg) fetch code: 7vsw | [Google drive](https://drive.google.com/file/d/1vK_PLtB4o-LMrVtQlnVysmQpB8MpSlRA/view?usp=sharing)] and put it into `RGBD_VST/Data` folder.
 
-#### Test Set
+#### Testing Set
 
 NJUD [[baidu pan](https://pan.baidu.com/s/1ywIJV_C0lG1KZNFow87bQQ) fetch code: 7mrn | [Google drive](https://drive.google.com/file/d/19rdcNsuDE6bRD58bruqCXPDhoopTMME4/view?usp=sharing)]  
 NLPR [[baidu pan](https://pan.baidu.com/s/1G3ec34XV7oQboY8R9FPVDw) fetch code: tqqm | [Google drive](https://drive.google.com/file/d/1NlJqeauFt6NlzNSHL9iQofzm8XWLmeg9/view?usp=sharing)]  
