@@ -113,11 +113,13 @@ We thank the authors of [Egnet](https://github.com/JXingZhao/EGNet) for providin
 ## Citation
 If you think our work is helpful, please cite 
 ```
-@inproceedings{liu2021VST, 
-  title={Visual Saliency Transformer}, 
-  author={Liu, Nian and Zhang, Ni and Han, Junwei and Shao, Ling},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year={2021}
+@InProceedings{Liu_2021_ICCV,
+    author    = {Liu, Nian and Zhang, Ni and Wan, Kaiyuan and Shao, Ling and Han, Junwei},
+    title     = {Visual Saliency Transformer},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {4722-4732}
 }
 ```
 
